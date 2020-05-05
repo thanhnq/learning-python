@@ -1,4 +1,4 @@
-*assert* is used to check if the expression is correct or not. It returns **AssertionError** if the expression is false.
+_**assert**_ is used to check if the expression is correct or not. It returns **AssertionError** if the expression is false.
 
 ```
 >>> num = 4
@@ -63,5 +63,5 @@ StopIteration
 
 *break* is used to break out of a loop.
 
-*continue" is similar to *break* but instead of breaking out of the loop, it starts a new iteration of the loop.
+_**continue**_ is similar to *break* but instead of breaking out of the loop, it starts a new iteration of the loop.
 
