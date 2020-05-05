@@ -10,7 +10,7 @@ AssertionError
 >>>
 ```
 
-*pass* is used to fill in a statement and do nothing at all. 
+_**pass**_ is used to fill in a statement and do nothing at all. 
 
 ```
 >>> class Empty_Class: pass
@@ -22,7 +22,7 @@ AssertionError
 >>>
 ```
 
-*del* is used to delete a variable or an object.
+_**del**_ is used to delete a variable or an object.
 
 ```
 >>> del object_
@@ -33,9 +33,9 @@ NameError: name 'object_' is not defined
 >>>
 ```
 
-*return* does exactly what it means literally. By default, a function in Python will return "None" if a return statement is not specified.
+_**return**_ does exactly what it means literally. By default, a function in Python will return **"None"** if a return statement is not specified.
 
-*yield* returns one item at a time and its companion function - *next* will emit each time when called, like a vending machine.
+_**yield**_ returns one item at a time and its companion function - _**next**_ will emit each time when called, like a vending machine.
 
 ```
 >>> def long_list():
@@ -61,7 +61,7 @@ StopIteration
 >>>
 ```
 
-*break* is used to break out of a loop.
+_**break**_ is used to break out of a loop.
 
-_**continue**_ is similar to *break* but instead of breaking out of the loop, it starts a new iteration of the loop.
+_**continue**_ is similar to _**break**_ but instead of breaking out of the loop, it starts a new iteration of the loop.
 
