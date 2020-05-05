@@ -12,7 +12,6 @@ AssertionError
 *pass* is used to fill in a statement and do nothing at all. 
 
 ```>>> class Empty_Class: pass
-...
 >>> object_ = Empty_Class()
 >>> object_.value = 1
 >>> object_.value
