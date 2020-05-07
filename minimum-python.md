@@ -65,3 +65,74 @@ _**break**_ is used to break out of a loop.
 
 _**continue**_ is similar to _**break**_ but instead of breaking out of the loop, it starts a new iteration of the loop.
 
+_**set**_ is a data type that holds only unique items. It will automatically remove duplicates.
+
+```
+>>> egg_set = set(["egg", "bacon", "egg"])
+>>> type(egg_set)
+<class 'set'>
+>>> egg_set
+{'egg', 'bacon'}
+>>>
+```
+
+A _**tuple**_ is immutable. Once it is created, it cannot be changed.
+
+```
+>>> breakfast = ("egg", "soup")
+>>> breakfast
+('egg', 'soup')
+>>> breakfast[1]
+'soup'
+>>> breakfast[0] = "bread"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>>
+```
+
+Use custom separation with _**print**_ function.
+
+```
+>>> print("This is a tab", "separation example", sep="\t")
+This is a tab   separation example
+>>>
+```
+
+power and exponent 
+
+```
+>>> import math
+>>> math.pow(2,3)
+8.0
+>>> 2**3
+8
+>>> math.pow(2,4)
+16.0
+>>> 2**4
+16
+>>>
+```
+
+How to get type of a variable.
+
+```
+>>> number = 100
+>>> type(number)
+<class 'int'>
+>>> type(number).__name__
+'int'
+>>> print(f"{number} is type {type(number).__name__}")
+100 is type int
+>>>
+```
+
+Round a decimal number.
+
+```
+>>> r = 1.234134243444
+>>> round(r, 3)
+1.234
+>>>
+```
+
